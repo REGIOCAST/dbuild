@@ -1,9 +1,9 @@
 name: Docker Image CI
 on:
     push:
-        tags: [ 'v*' ]
+        tags: [ '*' ]
     pull_request:
-        tags: [ 'v*' ]
+        tags: [ '*' ]
 jobs:
     build:
         runs-on: ubuntu-latest
